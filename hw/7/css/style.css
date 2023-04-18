@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.block1 img{
+    width: 350px;
+    height: 150px;
+    margin: 90px auto;
+    margin-left: 145px;
+    display: flex;
+}
+.img3:last-child(3):hover  {
+    transform: scale(1.5);
+}
+

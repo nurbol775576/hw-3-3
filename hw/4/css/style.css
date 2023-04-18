@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.h66{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.h11{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.posts{
+    width: 90%;
+    margin: -10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+.posts .post{
+    width: 20%;
+    height: 250px;
+    
+}
+.img{
+    width: 200px;
+    height: 250px;
+}
+
+.h2{
+   text-align: center;
+   padding-top: 5px;
+}
+.text{
+    text-align: center;
+    margin: 10px auto;
+}
+.prace{
+    text-align: center;
+}
+.tBorder{
+    height: 30px;
+    text-align: center;
+    border: 1;
+    background-color: black;
+    color: beige;
+    margin-top: 10px;
+    padding: 5px;
+}
+.firstF{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+    background-color: red;
+    padding: 7px;
+}
+.secondF{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: black;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background-color: #9e9393;
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

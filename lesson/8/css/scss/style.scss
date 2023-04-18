@@ -1,0 +1,70 @@
+@import"./constants.scss";
+
+@mixin flexbox($space,$size){
+    display: flex;
+    justify-content: $space;
+    width: $size;
+}
+  @mixin sethover($property,$value) {
+    transition: 0.3s all linear;
+  } 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #252525;
+    padding: 25px 0;
+}
+
+ .nav {
+    @include
+    align-items: center;
+
+
+&_logo{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+&_navbar{
+    @include flexbox(space-around,60% )
+    font-size:17px;
+a{
+    color: $white;
+    @include sethover(color,tomato )
+}    
+}
+}
+
+.cards{
+    background-color: #ccc;
+}
+
+
+
+.container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    @include flexbox(space-between,87% )
+
+.col{
+    width: 30%;
+    background-color:$dark;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+}

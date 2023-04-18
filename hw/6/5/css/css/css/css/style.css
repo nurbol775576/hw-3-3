@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&display=swap');
+*{
+    padding: 0px;
+    margin: opx;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'Noto Sans NKo', sans-serif;
+    font-size: 30px;
+}
+
+.fonts{
+    width: 400px;
+    margin: 100px auto;
+    font-size: 20px;
+}
+
+.fonts i{
+    font-size: 5em;
+    color: pink
+}
+

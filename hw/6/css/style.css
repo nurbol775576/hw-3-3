@@ -1,0 +1,199 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: all linear 0.3s;
+}
+.cont1{
+    width: 600px;
+    height: 610px;
+    border-radius: 20px;
+     overflow: hidden;
+}
+.block {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+img:hover{
+    transform: scale(1.3);
+}
+
+.p1{
+    position: absolute;
+    width: 100%;
+    top: 620px;
+    left: 500px;
+    color: red;
+}
+.h3-1{
+    position: absolute;
+    width: 100%;
+    top: 640px;
+    left: 550px;
+    color: red;
+}
+.p2{
+    position: absolute;
+    width: 100%;
+    top: 320px;
+    left: 980px;
+    color: red;
+}
+.h3-2{
+    position: absolute;
+    width: 100%;
+    top: 340px;
+    left: 1020px;
+    color: red;
+}
+.p3{
+    position: absolute;
+    width: 100%;
+    top: 620px;
+    left: 990px;
+    color: red;
+}
+.h3-3{
+    position: absolute;
+    width: 100%;
+    top: 640px;
+    left: 1030px;
+    color: red;
+}
+.img1:hover{
+    overflow: hidden;
+}
+    
+.img2:hover{
+    overflow: hidden;
+}
+        
+.img3:hover{
+    overflow: hidden;
+}
+     */
+
+
+
+
+
+
+
+
+/* img{ 
+    transform-origin: center;
+}
+
+.block1{
+    float: left;
+    display: block;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+.block2{
+    float: left;
+    display: block;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.img1{
+    width: 350px;
+    height: 320px;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: #000 0px 0px 15px 1px;
+    transform-origin: center;
+    transition: 1s;
+}
+.img2{
+    width: 350px;
+    height: 158px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    box-shadow: #000 0px 0px 15px 1px;
+    transform-origin: center;
+    transition: 1s;
+    position: relative;
+}
+.img3{
+    width: 350px;
+    height: 158px;
+    padding-top: 10px;
+    border-radius: 25px;
+    box-shadow: #000 0px 0px 15px 1px;
+    transform-origin: center;
+    transition: 1s;
+    position: relative;
+}
+.p1{
+    position: absolute;
+    width: 100%;
+    top: 420px;
+    left: 360px;
+    color: aqua;
+}
+.h3-1{
+    position: absolute;
+    width: 100%;
+    top: 440px;
+    left: 400px;
+    color: aqua;
+}
+.p2{
+    position: absolute;
+    width: 100%;
+    top: 250px;
+    left: 760px;
+    color: aqua;
+}
+.h3-2{
+    position: absolute;
+    width: 100%;
+    top: 270px;
+    left: 800px;
+    color: aqua;
+}
+.p3{
+    position: absolute;
+    width: 100%;
+    top: 420px;
+    left: 760px;
+    color: aqua;
+}
+.h3-3{
+    position: absolute;
+    width: 100%;
+    top: 440px;
+    left: 800px;
+    color: aqua;
+}
+.img1:hover{
+    overflow: hidden;
+}
+    
+.img2:hover{
+    overflow: hidden;
+}
+        
+.img3:hover{
+    overflow: hidden;
+}
+     */
